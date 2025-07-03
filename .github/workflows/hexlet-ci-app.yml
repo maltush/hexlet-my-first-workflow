@@ -12,8 +12,7 @@ jobs:
       - name: Set up Make
         run: sudo apt-get install make
 
-      - name: run setup 
-        run: make setup
+      - run: make setup
 
       - name: Run tests
         run: make test
